@@ -141,6 +141,8 @@ The quadrant-based extension showed that asymmetric wind profiles can be built u
 
 For Beryl, most quadrants produced relatively smooth profiles, but the South-West quadrant showed a local dip connected to pressure-field asymmetry. For Kirk, the South-West quadrant had a much stronger anomaly, linked to noisy pressure variation in the first 100 km.
 
+---
+
 ### Limitations
 
 This project was research-focused rather than a production software system.
@@ -155,6 +157,8 @@ limited wind radii observations restrict how accurately asymmetry can be modelle
 Holland models remain simplified representations of complex hurricane dynamics
 
 The final conclusion was that asymmetric Holland-based wind profiles are feasible, but reliable results require higher-quality pressure data, better azimuthal wind observations, and improved pressure-processing methods.
+
+---
 
 ### Technologies Used
 Python
