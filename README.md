@@ -14,6 +14,7 @@ This was completed as my final year project for the BSc Mathematical Sciences de
 This is an academic research project focused on scientific computing, numerical modelling, and analysis of real meteorological data.
 
 The notebooks are exploratory and were developed to test modelling ideas, generate visualisations, and evaluate results. They are not intended to represent a fully automated production pipeline.
+
 ---
 
 ## Project Motivation
