@@ -126,6 +126,8 @@ Separate radial pressure profiles and wind profiles were generated for each quad
 
 This was especially useful for storms where the pressure field or satellite imagery showed strong asymmetry.
 
+---
+
 ### Key Results
 Holland 2010 usually performed better than Holland 1980
 
@@ -143,7 +145,7 @@ For Beryl, most quadrants produced relatively smooth profiles, but the South-Wes
 
 ---
 
-### Limitations
+## Limitations
 
 This project was research-focused rather than a production software system.
 
@@ -160,14 +162,14 @@ The final conclusion was that asymmetric Holland-based wind profiles are feasibl
 
 ---
 
-### Technologies Used
-Python
-Jupyter Notebook
-NumPy
-Pandas
-SciPy
-Matplotlib
-xarray
-ERA5 reanalysis data
-HURDAT2 hurricane data
-GOES-16 satellite imagery
+## Technologies Used
+- Python
+- Jupyter Notebook
+- NumPy
+- Pandas
+- SciPy
+- Matplotlib
+- xarray
+- ERA5 reanalysis data
+- HURDAT2 hurricane data
+- GOES-16 satellite imagery
