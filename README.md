@@ -193,11 +193,7 @@ These plots compare the original Holland 1980 model with the revised Holland 201
 
 They show that H80 produces a smoother but more compact wind profile, while H10 usually maintains higher wind speeds farther from the storm centre and more closely matches the observed 34, 50, and 64-knot wind radii.
 
-Recommended figures to include:
-
-- H80 vs H10 comparison for Hurricane Helene
-- H80 vs H10 comparison for Hurricane Beryl
-- H80 vs H10 comparison for Hurricane Kirk
+![H80 vs H10 wind profile comparison example](holland_plots/1D_H80_H10_comp_HELENE.png)
 
 ### ERA5 Surface Pressure Fields
 
@@ -205,11 +201,7 @@ These figures show the real surface pressure field around each hurricane at peak
 
 They were used to check whether the storm pressure structure was smooth and symmetric, or whether it contained asymmetry, land influence, or noisy pressure behaviour.
 
-Recommended figures to include:
-
-- ERA5 pressure field for Hurricane Helene
-- ERA5 pressure field for Hurricane Beryl
-- ERA5 pressure field for Hurricane Kirk
+![ERA5 surface pressure field example](pressure_fields/Helene_pressure_around.png)
 
 ### GOES-16 Satellite Comparisons
 
@@ -217,10 +209,7 @@ GOES-16 satellite imagery was used as a visual check against the ERA5 pressure f
 
 This helped confirm whether the pressure field matched the visible hurricane structure, especially around the eye, eyewall, and cloud distribution.
 
-Recommended figures to include:
-
-- ERA5 pressure field and GOES-16 comparison for Helene
-- ERA5 pressure field and GOES-16 comparison for Kirk
+![GOES-16 image example](GOES-16_imagery/HELENE_GOES16.jpg)
 
 ### Quadrant-Based Pressure Profiles
 
@@ -239,45 +228,4 @@ These plots show the final asymmetric wind profiles produced using quadrant-spec
 
 They demonstrate that the Holland framework can be extended beyond one symmetric wind profile. However, they also show that noisy pressure data can create local dips or irregular wind behaviour.
 
-Recommended figures to include:
-
-- Quadrant wind profiles for Hurricane Beryl
-- Quadrant wind profiles for Hurricane Kirk
-- Quadrant wind profiles for Hurricane Helene
-
----
-
-## What I Learned
-
-This project strengthened my skills in:
-
-- scientific computing with Python
-- numerical modelling
-- curve fitting and parameter estimation
-- working with real-world environmental datasets
-- processing gridded ERA5 reanalysis data
-- using hurricane observational data from HURDAT2
-- comparing model outputs with observational constraints
-- calculating and interpreting error metrics
-- data visualisation with Matplotlib
-- interpreting noisy real-world data
-- explaining model assumptions and limitations clearly
-
-The most important technical lesson was that a model can be mathematically valid but still produce unreliable results if the input data is noisy, sparse, or not suitable for the assumptions of the model.
-
----
-
-## Future Improvements
-
-Possible future improvements include:
-
-- automate storm selection and data extraction
-- convert notebooks into reusable Python modules
-- add configuration files for different hurricanes
-- reduce manual input in the notebooks
-- improve pressure smoothing and interpolation
-- test smaller angular sectors instead of four broad quadrants
-- compare Holland outputs with other parametric wind models
-- add unit tests for the main modelling functions
-- create a reproducible command-line workflow
-- add a cleaner pipeline for downloading and processing ERA5 data
+![Quadrant-based wind profile example](/holland_plots/1D_H10_pressure_comp_quads_HELENE.png)
